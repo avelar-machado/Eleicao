@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "budget": "40000",
+      "name": "Biblioteca Isptec",
+      "services": [],
+      "cost": 0,
+      "id": 1
+    },
+    {
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "budget": "100000",
+      "name": "Engenharia de Software",
+      "services": [],
+      "cost": 0,
+      "id": 2
+    },
+    {
+      "name": "Compilador",
+      "budget": "900000",
+      "category": {
+        "id": "3",
+        "name": "Planejamento"
+      },
+      "services": [],
+      "cost": 0,
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 3,
+      "name": "Planejamento"
+    }
+  ]
+}
