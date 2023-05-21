@@ -1,0 +1,9 @@
+.content_eleitor{
+    margin: 1em auto;
+    width: 100%;
+    padding: 1.2em;
+}
+
+.content_eleitor li a{ 
+    font-size: 1.4em;
+}
