@@ -28,3 +28,7 @@
     color: #7b7b7b;
     margin-bottom: 1.5em;
 }
+
+.home_container a:hover{
+    color: #ffbb33;
+}

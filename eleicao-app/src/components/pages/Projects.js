@@ -58,8 +58,8 @@ function Projects() {
     return (
         <div className={styles.project_container}>
             <div className={styles.title_container}>
-                <h1>Meus Projects</h1>
-                <LinkButton to="/newproject" text="Criar Projecto" />
+                <h1>Eleições</h1>
+                <LinkButton to="/newproject" text="Criar Eleição" />
                 </div>
 
                 {message && <Message type = "success" msg = {message} />}
@@ -78,7 +78,7 @@ function Projects() {
                     }
                     {!removeLoading && <Loading />}
                     {removeLoading && projects.length === 0 && (
-                        <p>Não Há projectos Cadastrados</p>
+                        <p>Não Há Eleições no Momento</p>
                     )}
                 </Container>          
         </div>

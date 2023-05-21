@@ -8,6 +8,8 @@ import Container from './components/layout/Container';
 import NavBar from './components/layout/NavBar'
 import Footer from './components/layout/Footer'
 import Project from './components/pages/Project'
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 
 function App() {
@@ -17,7 +19,7 @@ function App() {
 
         <NavBar/> 
 
-        <Container customClass = "minHeight">
+        <Container customClass = "minHeight container">
           <Routes>                
             <Route path="/" element={<Home />} />  
             <Route path="/company" element={<Company />} />
